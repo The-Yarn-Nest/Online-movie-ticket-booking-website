@@ -1,0 +1,30 @@
+[
+  {
+    "username": "Ansar",
+    "email": "ansar@gmail.com",
+    "password": "ansar"
+  },
+  {
+    "username": "Vaheetha",
+    "email": "vaheetha@gmail.com",
+    "password": "vaheetha"
+  },
+  
+  {
+    "username": "Shifana",
+    "email": "shifana@gmail.com",
+    "password": "shifana"
+  },
+  
+  {
+    "username": "Rhifana",
+    "email": "rhifana@gmail.com",
+    "password": "rhifana"
+  },
+  
+  {
+    "username": "Farhana",
+    "email": "farhana@gmail.com",
+    "password": "farhana"
+  }
+]

@@ -1,0 +1,151 @@
+ body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0b1d3a;
+      color: #fff;
+    }
+
+    /* Header Navigation */
+    .topnav {
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
+      align-items:start;
+      padding: 10px 30px;
+      background-color: #1e2a47;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+    }
+
+    .topnav .logo { width: 40px; height: 35px; border-radius: 30%; object-fit: contain; border: 2px solid #87ceeb;  }
+
+    .webpage-name {
+      display: flex;
+      flex-direction: column;
+      line-height: 1.2;
+    }
+    .webpage-name h1 {
+      margin: 5px;
+      font-size: 28px;
+      font-weight: bold;
+      color: #4a90e2;
+    }
+
+    .webpage-name h3 {
+      margin: 10px;
+      font-size: 24px;
+      font-style: italic;
+      color: #87ceeb;
+    }
+
+  /* Profile box */
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 6px 14px;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+  width: fit-content;
+  justify-self: end;  /* keeps it compact and right-aligned */
+  cursor: pointer;
+  box-shadow: 0 0 4px rgba(0, 150, 255, 0.3);
+}
+
+.profile:hover {
+  background: rgba(255, 255, 255, 0.18);
+  box-shadow: 0 0 10px rgba(0, 180, 255, 0.6);
+  transform: scale(1.03);
+}
+
+/* Profile image */
+.profile-pic-wrapper {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;              /* hides white corners */
+  border: 2px solid black;
+  background-color: #1e2a47;     /* blends with site background */
+  flex-shrink: 0;                /* prevents squishing */
+}
+
+#profile-pic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;             /* ensures full circular fill */
+  display: block;
+}
+
+.profile:hover .profile-pic-wrapper {
+  box-shadow: 0 0 10px rgba(0, 180, 255, 0.6);
+  border-color: #4a90e2;
+}
+
+
+
+
+/* Username text */
+.profile span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+/* Theme color change on hover */
+.profile:hover span {
+  color: #4a90e2;
+}
+
+
+    .content { padding: 30px; }
+
+    .movies-section { margin-top: 40px; }
+    .movies-section h2 { margin-bottom: 15px; color: #4a90e2; }
+
+    .top-pick { display: flex; gap: 20px; margin-bottom: 30px; }
+    .top-pick img { width: 1200px; height: 300px; border-radius: 10px; object-fit: cover; box-shadow: 0 4px 10px rgba(236, 234, 234, 0.6); }
+
+    .related-movies { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; justify-items: center; }
+    .related-movies .movie { text-align: center; }
+    .related-movies img { width: 300px; height: 300px; border-radius: 10px; object-fit: cover; box-shadow: 0 4px 8px rgba(0,0,0,0.5); transition: transform 0.2s; }
+    .related-movies img:hover { transform: scale(1.05); }
+
+    .movie h3 { font-style:oblique; }
+    .movie-card { text-align: center; font-size: 14px; margin-top: 8px; }
+    .booknow {
+  display: inline-block;
+  padding: 5px 16px;    /* horizontal padding */
+  background-color: #1052bb;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  font-size: 14px;
+  justify-content: center;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+}
+.booknow:hover {
+  background-color: #0d47a1; /* darker on hover */
+}
+
+
+    h3, h1 {text-align: center;color: deepskyblue; }
+    div h2 { text-align: left; margin-top: 30px; }
+    h3 { font-style: italic; color: lightskyblue; }
+
+    div .movie-desc {
+      display: grid;
+      border-radius:10px;
+      align-items: center;
+      padding: 10px 30px;
+      background-color: #1e2a47;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+    }
+
+    .top-movie-container { position: relative; display: inline-block; }
+    .top-movie-container img { width: 1200px; height: 300px; border-radius: 10px; object-fit: cover; box-shadow: 0 4px 10px rgba(236, 234, 234, 0.6); }
+
+    .quickly-button { position: absolute; left:817px; top: 233px; width: 210px; height: 60px; cursor: pointer; text-decoration: none; background: transparent; }
+    .quickly-button:hover { box-shadow: 0 0 25px 8px rgba(46, 204, 113, 0.8); border-radius: 27px; background: rgba(46, 204, 113, 0.15); }
