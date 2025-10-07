@@ -1,0 +1,29 @@
+{
+  "topPick": {
+    "title": "Amaran",
+    "image": "../AMARAN.png",
+    "link": "booking.html?movie=Amaran"
+  },
+  "recommended": [
+    {
+      "title": "Abhiyum Naanum",
+      "movie image": "../ABHIYUM NAANUM.jpg",
+      "link": "booking.html?movie=Abhiyum%20Naanum"
+    },
+    {
+      "title": "M.Kumaran S/O Mahalakshmi",
+      "movie image": "../M.Kumaran-SO-Mahalakshmi.jpg",
+      "link": "booking.html?movie=M.Kumaran%20S/O%20Mahalakshmi"
+    },
+    {
+      "title": "Hi Nanna",
+      "image": "../HI NANNA.webp",
+      "link": "booking.html?movie=Hi%20Nanna"
+    },
+    {
+      "title": "Sillunu Oru Kadhal",
+      "image": "../Sillunu-Oru-Kadhal (1).jpg",
+      "link": "booking.html?movie=Sillunu%20Oru%20Kadhal"
+    }
+  ]
+}

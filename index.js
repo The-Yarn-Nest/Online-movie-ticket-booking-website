@@ -23,7 +23,7 @@ regform.addEventListener("submit",(event)=>{
     document.getElementById("message").style.color = "orange";
     // Redirect existing user to login page
     setTimeout(() => {
-      window.location.href = "../Login/login.html";
+      window.location.href = "./login.html";
     }, 1500);
   } else {
     document.getElementById("message").innerText = "Registered successfully!";
@@ -36,7 +36,7 @@ regform.addEventListener("submit",(event)=>{
 
     // Redirect to login after successful registration
     setTimeout(() => {
-      window.location.href = "../Login/login.html";
+      window.location.href = "./login.html";
     }, 1500);
   }
 });
